@@ -1,0 +1,8 @@
+function lifeInWeeks(age){
+    var age = prompt("Enter your age here.");
+    var ageInMonths = age * 12;
+    var ageInWeeks = age * 52;
+    var ageInDays = age * 365;
+    console.log("You have " + ageInDays + " days, " + ageInWeeks + " weeks, " + ageInMonths + " months.")
+}
+lifeInWeeks();
